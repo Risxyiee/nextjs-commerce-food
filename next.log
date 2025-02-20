@@ -1,0 +1,60 @@
+nohup: ignoring input
+
+> dev
+> next dev --turbopack
+
+API_URL: http://localhost:3000/api
+ ⚠ Port 3000 is in use, trying 3001 instead.
+API_URL: http://localhost:3000/api
+   ▲ Next.js 15.2.0-canary.47 (Turbopack)
+   - Local:        http://localhost:3001
+   - Network:      http://128.199.198.198:3001
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1709ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.3s
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 590ms
+ GET / 500 in 3388ms
+ GET / 500 in 85ms
+ GET / 500 in 78ms
+ ✓ Compiled /api/hello in 69ms
+API_URL: http://localhost:3000/api
+ GET /api/hello 200 in 50ms
+[1m[31mFATAL[39m[0m: An unexpected Turbopack error occurred. Please report the content of /tmp/next-panic-bfe7293db246cc006a25a964fb1f2db5.log, along with a description of what you were doing when the error occurred, to https://github.com/vercel/next.js/issues/new
+API_URL: http://localhost:3000/api
+ GET / 200 in 130ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/root/nextjs-commerce-food/.next/server/pages/_app/build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/root/nextjs-commerce-food/.next/server/pages/_app/build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/root/nextjs-commerce-food/.next/server/pages/_app/build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/root/nextjs-commerce-food/.next/server/pages/_app/build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/root/nextjs-commerce-food/.next/server/pages/_app/build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/root/nextjs-commerce-food/.next/server/pages/_app/build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/root/nextjs-commerce-food/.next/server/pages/_app/build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/root/nextjs-commerce-food/.next/server/pages/_app/build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/root/nextjs-commerce-food/.next/server/pages/_app/build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/root/nextjs-commerce-food/.next/server/pages/_app/build-manifest.json'
+}
+Killed
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
